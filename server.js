@@ -18,14 +18,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
     useFindAndModify: false
   
 });
-const MongoClient = require('mongodb').MongoClient;
-const uri = "mongodb+srv://mengyue_z:suan1314@cluster0.wbjbp.mongodb.net/workout?retryWrites=true&w=majority";
-const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
-client.connect(err => {
-  const collection = client.db("test").collection("devices");
-  // perform actions on the collection object
-  client.close();
-});
+
 // routes
 app.use(require("./routes/api-route.js"));
 app.use(require("./routes/html-routes.js"));
