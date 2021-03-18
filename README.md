@@ -14,9 +14,9 @@ If the exercise is a cardio exercise, I should be able to track my distance trav
 ```
 
 ## Screenshots
-![App Screenshot](./public/images/screenshot1)
-![App Screenshot](./public/images/screenshot2)
-![App Screenshot](./public/images/screenshot3)
+![App Screenshot](./public/images/screenshot1.png)
+![App Screenshot](./public/images/screenshot2.png)
+![App Screenshot](./public/images/screenshot3.png)
 
 ## Links
 
